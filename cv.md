@@ -1,16 +1,13 @@
 # Kirill Loikо #
 
 ## My contacts: ##
-  * *email:* **kirill.loiko@gmail.com**
-  * *tel:* **+375292856718**
-  * *telegram:* **@L_K_V_9**
-  * *GitHub:* **https://github.com/kirill-loiko**
+  * **email:** kirill.loiko@gmail.com
+  * **tel:** +375292856718
+  * **telegram:** @L_K_V_9
+  * **GitHub:** https://github.com/kirill-loiko
 
-### about me ###
-* **Self learning** *html, scc, java script.
-* I want to work as a Front-end Developer
-* no expirience in coding
-* **self-education**
+## About me ##
+I'm 31 year old. Last 5 years I work as individual entrepreneur in wholesale of constraction materials. But IT sector has always been interesting to me. I would like to try my hand at front-end development.  So now I start self learning html, scc and java script in RSSchool. I think I will succed because I'm hardworking and purposeful man.
 
-### my English lv: ###
+## My English lv: ##
 A1-A2

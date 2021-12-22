@@ -7,7 +7,7 @@
   * **GitHub:** https://github.com/kirill-loiko
 
 ## About me ##
-I'm 31 year old. Last 5 years I work as individual entrepreneur in wholesale of constraction materials. But IT sector has always been interesting to me. I would like to try my hand at front-end development.  So now I start self learning html, css and java script in RSSchool. I think I will succeed because I'm hardworking and purposeful man.
+I'm 31 years old. Last 5 years I work as individual entrepreneur in high volume sales of construction materials. But IT sector has always been interesting to me. I would like to try my hand at front-end development.  So now I start teaching myself html, css and java script in RSSchool. I think I will succeed because I'm hardworking and persistent man.
 
 ## My English level: ##
 A1-A2

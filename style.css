@@ -1,14 +1,47 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
 .left-side {
-    border: 1px solid #000;
+    width: 300px;
+    background-color: aquamarine;
 }
 .right-side {
-    border: 1px solid #000;
+    width: 700px;
+    background-color: burlywood;
 }
 .my-photo {
     width: 200px;
 }
-section, div, p, h2, h1, ul, img {
-    padding: 5px;
-    border: 1px solid #000;
-    margin: 5px;
+.div-photo {
+    margin-top: 20px;
+    text-align: center;
+}
+section {
+    margin: 70px 50px 0 50px;
+}
+.my-contacts{
+    margin: 40px 20px 0 20px;
+}
+h1 {
+    margin: 50px 50px 0 50px;
+}
+h2 {
+    margin-bottom: 15px;
+}
+li:not(:last-child) {
+    margin-bottom: 10px;
+}
+ul {
+    padding: 0;
+    list-style: none;
+}
+li::before {
+    content: '';
+    
 }

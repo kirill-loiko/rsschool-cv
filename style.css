@@ -2,46 +2,87 @@ html, body {
     margin: 0;
     padding: 0;
 }
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(20, 20, 20);
+    color: #DDC5A2;
+}
+.wrapper {
+    max-width: 1000px;
+    min-height: 100vh;
+    margin: auto;
+}
 main {
-    height: 100vh;
     display: flex;
     justify-content: center;
 }
 .left-side {
-    width: 300px;
-    background-color: aquamarine;
+    width: 33%;
+    padding: 50px 20px;
+    background-color: rgb(40, 40, 40);
 }
 .right-side {
-    width: 700px;
-    background-color: burlywood;
+    width: 67%;
+    padding: 50px;
+    background-color: rgb(30, 30, 30);
 }
 .my-photo {
-    width: 200px;
+    width: 100%;
+    height: auto;
+    margin: -25px auto;
 }
 .div-photo {
-    margin-top: 20px;
-    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
 }
 section {
-    margin: 70px 50px 0 50px;
-}
-.my-contacts{
-    margin: 40px 20px 0 20px;
-}
-h1 {
-    margin: 50px 50px 0 50px;
+    margin: 70px 0 0 0;
 }
 h2 {
     margin-bottom: 15px;
 }
 li:not(:last-child) {
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 ul {
     padding: 0;
     list-style: none;
 }
-li::before {
-    content: '';
-    
+.li-skills::before {
+    content: '✓'; 
+    margin-right: 5px;
+}
+li:not(.li-skills)::before{
+    content: '•';
+    margin-right: 5px;
+}
+a {
+    text-decoration: none;
+    color: #DDC5A2;
+}
+.ul-my-contacts a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+footer {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    background-color: rgb(35, 35, 35);
+}
+.footer-year, .footer-github {
+    font-size: 20px;
+}
+.footer-github img {
+    border-radius: 50%;
+    background-color: #DDC5A2; 
+   
+}
+.about-me p {
+    line-height: 1.5em;
+    text-align: justify;
 }

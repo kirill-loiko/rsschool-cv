@@ -5,29 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Kirill Loiko CV</title>
 </head>
 <body>
-    <main>
-        <div class="left-side">
-            <div class="div-photo">
-                <img class="my-photo" src="./img.jpg" alt="My photo">
+    <div class="wrapper">
+        <main>
+            <div class="left-side">
+                <div class="div-photo">
+                    <img class="my-photo" src="./img.jpg" alt="My photo">
+                </div>
+                <section class="my-contacts">
+                    <h2>My contacts:</h2>
+                    <ul class="ul-my-contacts">
+                        <li>e-mail: <a href="mailto:kirill.loiko@gmail.com">kirill.loiko@gmail.com</a></li>
+                        <li>tel: <a href="tel:+375292856718">+375292856718</a></li>
+                        <li>telegram: <a href="tg://resolve?domain=@L_K_V_9">@L_K_V_9</a></li>
+                        <li>GitHub: <a href="https://github.com/kirill-loiko" target="_blank">https://github.com/kirill-loiko</a></li>
+                    </ul>
+                </section>
             </div>
-            <section class="my-contacts">
-                <h2>My contacts:</h2>
-                <ul class="ul-my-contacts">
-                    <li>e-mail: kirill.loiko@gmail.com</li>
-                    <li>tel: +375292856718</li>
-                    <li>telegram: @L_K_V_9</li>
-                    <li>GitHub: https://github.com/kirill-loiko</li>
-                </ul>
-            </section>
-        </div>
             <div class="right-side">
                 <h1>Kirill Loiko</h1>
                 <section class="about-me">
                     <h2>About me:</h2>
-                    <p>I’m 31 years old. Last 5 years I work as individual entrepreneur in high volume sales of construction materials. But IT sector has always been interesting to me. I would like to try my hand at front-end development. So now I start teaching myself html, css and java script in RSSchool. I think I will succeed because I’m hardworking and persistent man.</p>
+                    <p>I’m 31 years old. I am individual entrepreneur of construction materials high volume sales for last 5 years. But IT sector has always been interesting to me. I would like to try my hand at front-end development. That's why I start teaching myself html, css and java script in RSSchool. I'm confident I will succeed because I’m hardworking and persistent man.</p>
                 </section>
                 <section class="english-level">
                     <h2>My English level:</h2>
@@ -36,9 +38,9 @@
                 <section class="skills">
                     <h2>Skills:</h2>
                     <ul>
-                        <li>HTML - basic</li>
-                        <li>CSS - basic</li>
-                        <li>Java Script - basic</li>
+                        <li class="li-skills">HTML - basic</li>
+                        <li class="li-skills">CSS - basic</li>
+                        <li class="li-skills">Java Script - basic</li>
                     </ul>
                 </section>
                 <section class="education">
@@ -48,7 +50,18 @@
                         <li>Online courses in RSShool</li>
                     </ul>
                 </section>
-        </div>
-    </main>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-year">2021    
+            </div>
+            <div class="footer-github"><a href="https://github.com/kirill-loiko" target="_blank">
+                <img src="./github.png" alt="GitHub Logo" width="25px">Me on GitHub</a>
+            </div>
+            <div><a href="https://rs.school/js/" target="_blank">
+                <img src="./rs_school_js.png" alt="RSSchol" width="80px"></a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

@@ -1,88 +1,146 @@
-html, body {
-    margin: 0;
+html,
+body {
     padding: 0;
+    margin: 0;
 }
+
 html {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(20, 20, 20);
-    color: #DDC5A2;
+    color: #ddc5a2;
+    background-color: #141414;
 }
+
 .wrapper {
     max-width: 1000px;
     min-height: 100vh;
     margin: auto;
 }
+
 main {
     display: flex;
     justify-content: center;
 }
-.left-side {
+
+.left-sidebar {
     width: 33%;
     padding: 50px 20px;
-    background-color: rgb(40, 40, 40);
+    background-color: #282828;
 }
-.right-side {
+
+.right-sidebar {
     width: 67%;
     padding: 50px;
-    background-color: rgb(30, 30, 30);
+    background-color: #1e1e1e;
 }
-.my-photo {
+
+.profile-photo {
     width: 100%;
     height: auto;
     margin: -25px auto;
 }
-.div-photo {
+
+.profile-photo-container {
     width: 250px;
     height: 250px;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 50%;
 }
+
 section {
     margin: 70px 0 0 0;
 }
+
 h2 {
     margin-bottom: 15px;
 }
+
 li:not(:last-child) {
     margin-bottom: 7px;
 }
+
 ul {
     padding: 0;
     list-style: none;
 }
-.li-skills::before {
+
+.skills-list::before {
     content: '✓'; 
     margin-right: 5px;
 }
-li:not(.li-skills)::before{
+
+.list::before {
     content: '•';
     margin-right: 5px;
 }
+
 a {
-    text-decoration: none;
-    color: #DDC5A2;
+   text-decoration: none;
+   color: #ddc5a2;
 }
-.ul-my-contacts a:hover {
+
+#contacts-list a:hover,
+#projects-conteiner figcaption a:hover {
     text-decoration: underline;
     font-weight: bold;
 }
+
+footer,
+nav {
+    padding: 10px 40px; 
+    background-color: #232323;
+}
+
 footer {
-    padding: 10px 40px;
     display: flex;
     justify-content: space-between;
-    align-items: center;   
-    background-color: rgb(35, 35, 35);
+    align-items: center;  
 }
-.footer-year, .footer-github {
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-year,
+#footer-github {
     font-size: 20px;
 }
-.footer-github img {
-    border-radius: 50%;
-    background-color: #DDC5A2; 
-   
+
+#footer-github a {
+    display: flex;
+    align-items: center;
 }
-.about-me p {
+
+#footer-github img {
+    width: 25px;
+    background-color: #ddc5a2; 
+    border-radius: 50%;
+}
+
+#about-me-conteiner {
     line-height: 1.5em;
     text-align: justify;
+}
+
+pre {
+    width: 100%;
+    padding-top: 20px;
+    color: #282828;
+    background-color: #ddc5a2;
+}
+
+figure {
+    width: 80%;
+}
+
+figure img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#footer-rsschool img {
+    width: 80px;
 }

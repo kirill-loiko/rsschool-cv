@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,60 +9,95 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Kirill Loiko CV</title>
 </head>
+
 <body>
     <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="#contacts-container">My contacts</a></li>
+                <li><a href="#skills-container">Skills</a></li>
+                <li><a href="#education-container">Education</a></li>
+                <li><a href="#code-example-container">Code example</a></li>
+                <li><a href="#projects-conteiner">My projects</a></li>
+            </ul>
+        </nav>
         <main>
-            <div class="left-side">
-                <div class="div-photo">
-                    <img class="my-photo" src="./img.jpg" alt="My photo">
+            <div class="left-sidebar">
+                <div class="profile-photo-container">
+                    <img class="profile-photo" src="./img.jpg" alt="My photo">
                 </div>
-                <section class="my-contacts">
+                <section id="contacts-container">
                     <h2>My contacts:</h2>
-                    <ul class="ul-my-contacts">
-                        <li>e-mail: <a href="mailto:kirill.loiko@gmail.com">kirill.loiko@gmail.com</a></li>
-                        <li>tel: <a href="tel:+375292856718">+375292856718</a></li>
-                        <li>telegram: <a href="tg://resolve?domain=@L_K_V_9">@L_K_V_9</a></li>
-                        <li>GitHub: <a href="https://github.com/kirill-loiko" target="_blank">https://github.com/kirill-loiko</a></li>
+                    <ul id="contacts-list">
+                        <li class="list">e-mail: <a href="mailto:kirill.loiko@gmail.com">kirill.loiko@gmail.com</a></li>
+                        <li class="list">tel: <a href="tel:+375292856718">+375292856718</a></li>
+                        <li class="list">telegram: <a href="tg://resolve?domain=@L_K_V_9">@L_K_V_9</a></li>
+                        <li class="list">GitHub: <a href="https://github.com/kirill-loiko"
+                                target="_blank">https://github.com/kirill-loiko</a></li>
+                        <li class="list">Discord: Kirill Loiko (@kirill-loiko)</li>
                     </ul>
                 </section>
             </div>
-            <div class="right-side">
+            <div class="right-sidebar">
                 <h1>Kirill Loiko</h1>
-                <section class="about-me">
+                <section>
                     <h2>About me:</h2>
-                    <p>I’m 31 years old. I am individual entrepreneur of construction materials high volume sales for last 5 years. But IT sector has always been interesting to me. I would like to try my hand at front-end development. That's why I start teaching myself html, css and java script in RSSchool. I'm confident I will succeed because I’m hardworking and persistent man.</p>
+                    <p id="about-me-conteiner">I’m 31 years old. I am individual entrepreneur of construction
+                        materials high volume sales for last 5 years. But IT sector has always been interesting to me. I
+                        would like to try my hand at front-end development. That's why I start teaching myself html, css
+                        and java script in RSSchool. I'm confident I will succeed because I’m hardworking and persistent
+                        man.</p>
                 </section>
-                <section class="english-level">
+                <section>
                     <h2>My English level:</h2>
                     <p>A1-A2</p>
                 </section>
-                <section class="skills">
+                <section id="skills-container">
                     <h2>Skills:</h2>
                     <ul>
-                        <li class="li-skills">HTML - basic</li>
-                        <li class="li-skills">CSS - basic</li>
-                        <li class="li-skills">Java Script - basic</li>
+                        <li class="skills-list">HTML - basic</li>
+                        <li class="skills-list">CSS - basic</li>
+                        <li class="skills-list">Java Script - basic</li>
                     </ul>
                 </section>
-                <section class="education">
+                <section id="education-container">
                     <h2>Education:</h2>
                     <ul>
-                        <li>Yanka Kupala State University of Grodno - Ecomonist</li>
-                        <li>Online courses in RSShool</li>
+                        <li class="list">Yanka Kupala State University of Grodno - Ecomonist</li>
+                        <li class="list">Online courses in RSShool</li>
                     </ul>
+                </section>
+                <section id="code-example-container">
+                    <h2>Code example:</h2>
+                    <pre>
+                        <code>function multiply(a, b){
+                        return a * b
+                       }</code>
+                 </pre>
+                </section>
+                <section id="projects-conteiner">
+                    <h2>My projects:</h2>
+                    <figure>
+                        <figcaption><a href="https://kirill-loiko.github.io/rsschool-cv/" target="_blank">CV</a>
+                        </figcaption>
+                        <a href="https://kirill-loiko.github.io/rsschool-cv/" target="_blank">
+                            <img src="./cv-img-project.png" alt="CV Project Screenshot">
+                        </a>
+                    </figure>
                 </section>
             </div>
         </main>
         <footer>
-            <div class="footer-year">2021    
+            <div id="footer-year">2021
             </div>
-            <div class="footer-github"><a href="https://github.com/kirill-loiko" target="_blank">
-                <img src="./github.png" alt="GitHub Logo" width="25px">Me on GitHub</a>
+            <div id="footer-github"><a href="https://github.com/kirill-loiko" target="_blank">
+                    <img src="./github.png" alt="GitHub Logo">Me on GitHub</a>
             </div>
-            <div><a href="https://rs.school/js/" target="_blank">
-                <img src="./rs_school_js.png" alt="RSSchol" width="80px"></a>
+            <div id="footer-rsschool"><a href="https://rs.school/js/" target="_blank">
+                    <img src="./rs_school_js.png" alt="RSSchol"></a>
             </div>
         </footer>
     </div>
 </body>
+
 </html>

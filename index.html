@@ -6,27 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Kirill Loiko CV</title>
 </head>
 
 <body>
     <div class="wrapper">
-        <nav>
-            <ul>
-                <li><a href="#contacts-container">My contacts</a></li>
-                <li><a href="#skills-container">Skills</a></li>
-                <li><a href="#education-container">Education</a></li>
-                <li><a href="#code-example-container">Code example</a></li>
-                <li><a href="#projects-conteiner">My projects</a></li>
-            </ul>
-        </nav>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#contacts">My contacts</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#code">Code example</a></li>
+                    <li><a href="#projects">My projects</a></li>
+                </ul>
+            </nav>
+        </header>
         <main>
             <div class="left-sidebar">
                 <div class="profile-photo-container">
-                    <img class="profile-photo" src="./img.jpg" alt="My photo">
+                    <img class="profile-photo" src="./assets/jpg/img.jpg" alt="My photo">
                 </div>
-                <section id="contacts-container">
+                <section id="contacts">
                     <h2>My contacts:</h2>
                     <ul id="contacts-list">
                         <li class="list">e-mail: <a href="mailto:kirill.loiko@gmail.com">kirill.loiko@gmail.com</a></li>
@@ -42,7 +46,7 @@
                 <h1>Kirill Loiko</h1>
                 <section>
                     <h2>About me:</h2>
-                    <p id="about-me-conteiner">I’m 31 years old. I am individual entrepreneur of construction
+                    <p id="summary-conteiner">I’m 31 years old. I am individual entrepreneur of construction
                         materials high volume sales for last 5 years. But IT sector has always been interesting to me. I
                         would like to try my hand at front-end development. That's why I start teaching myself html, css
                         and java script in RSSchool. I'm confident I will succeed because I’m hardworking and persistent
@@ -52,7 +56,7 @@
                     <h2>My English level:</h2>
                     <p>A1-A2</p>
                 </section>
-                <section id="skills-container">
+                <section id="skills">
                     <h2>Skills:</h2>
                     <ul>
                         <li class="skills-list">HTML - basic</li>
@@ -60,14 +64,14 @@
                         <li class="skills-list">Java Script - basic</li>
                     </ul>
                 </section>
-                <section id="education-container">
+                <section id="education">
                     <h2>Education:</h2>
                     <ul>
                         <li class="list">Yanka Kupala State University of Grodno - Ecomonist</li>
                         <li class="list">Online courses in RSShool</li>
                     </ul>
                 </section>
-                <section id="code-example-container">
+                <section id="code">
                     <h2>Code example:</h2>
                     <pre>
                         <code>function multiply(a, b){
@@ -75,14 +79,14 @@
                        }</code>
                  </pre>
                 </section>
-                <section id="projects-conteiner">
+                <section id="projects">
                     <h2>My projects:</h2>
                     <figure>
                         <figcaption><a href="https://kirill-loiko.github.io/rsschool-cv/" target="_blank"
                                 rel="noopener">CV</a>
                         </figcaption>
                         <a href="https://kirill-loiko.github.io/rsschool-cv/" target="_blank" rel="noopener">
-                            <img src="./cv-img-project.png" alt="CV Project Screenshot">
+                            <img src="./assets/png/cv-img-project.png" alt="CV Project Screenshot">
                         </a>
                     </figure>
                 </section>
@@ -92,10 +96,10 @@
             <div id="footer-year">2021
             </div>
             <div id="footer-github"><a href="https://github.com/kirill-loiko" target="_blank" rel="noopener">
-                    <img src="./github.png" alt="GitHub Logo">Me on GitHub</a>
+                    <img src="./assets/png/github.png" alt="GitHub Logo">Me on GitHub</a>
             </div>
             <div id="footer-rsschool"><a href="https://rs.school/js/" target="_blank" rel="noopener">
-                    <img src="./rs_school_js.png" alt="RSSchol"></a>
+                    <img src="./assets/png/rs_school_js.png" alt="RSSchol"></a>
             </div>
         </footer>
     </div>

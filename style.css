@@ -8,6 +8,7 @@ html {
     font-family: 'Roboto', sans-serif;
     color: #ddc5a2;
     background-color: #141414;
+    scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -80,7 +81,7 @@ a {
 }
 
 #contacts-list a:hover,
-#projects-conteiner figcaption a:hover {
+#projects figcaption a:hover {
     text-decoration: underline;
     font-weight: bold;
 }
@@ -120,7 +121,7 @@ nav ul{
     border-radius: 50%;
 }
 
-#about-me-conteiner {
+#summary-conteiner {
     line-height: 1.5em;
     text-align: justify;
 }
